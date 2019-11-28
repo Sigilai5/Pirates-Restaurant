@@ -1,0 +1,89 @@
+html{
+
+	height: 100%;
+	overflow-x: hidden;
+}
+body{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+header{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+}
+header h1{
+	margin-top: -100px;
+	background-color: lightgrey opacity:0.6; ;
+}
+header, header before{
+	background: 50% 50% /cover;
+}
+header::before {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-image: url(ana.jpg);
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	min-height: 100vh;
+}
+main{
+
+    background-image: url(petr-sevcovic-fyQr1T3GE34-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+header *{
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	padding: 1em 0;
+}
+.col-6{
+	background: rgba(255, 255, 255, 0.6);
+    color: #000;
+}
+h1{
+    background: rgba(255, 255, 255, 0.6);
+    color: #000;
+    font:18px 'Lora', serif;
+}
+h2{
+	font: 10px 'Mukta', sans-serif;
+	margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+h3{
+	font: 10px 'Indie Flower', cursive;
+	margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Home</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+<!--  <link rel="stylesheet" href="css/mdb.min.css">-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Main Navigation -->
+<header>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark black">
+
+    <!-- Additional container -->
+    <div class="container">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Pirates Restaurant</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Food.html">Foods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Drinks.html">Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="PiratesAbout.html">About</a>
+        </li>
+
+
+      </ul>
+
+    </div>
+    <!-- Collapsible content -->
+
+    </div>
+  </nav>
+  <!--/.Navbar-->
+
+</header>
+
+
+<!-- Main Layout -->
+<main class="mt-5">
+
+  <!--Main container-->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-7 mb-4">
+
+        <div class="view overlay z-depth-1-half">
+          <img src="restaurant.jpeg" class="card-img-top" alt="">
+          <div class="mask rgba-white-light"></div>
+        </div>
+
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-5 mb-4">
+
+        <h2>Pirates Restaurant</h2>
+        <hr>
+        <p>Home to the finnest cousine in Africa</p>
+        <a href="" class="btn btn-black">Make a Reservation</a>
+
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <!--Grid row-->
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4">
+
+        <!--Card-->
+        <div class="card">
+
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="burger.jpeg" class="card-img-top" alt="">
+            <a href="#">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Food</h4>
+            <!--Text-->
+            <p class="card-text">Get the best food from our restaurant.</p>
+            <a href="Food.html" class="btn btn-black">See Our Foods</a>
+          </div>
+
+        </div>
+        <!--/.Card-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-6 mb-4">
+
+        <!--Card-->
+        <div class="card">
+
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="beer.jpeg" class="card-img-top" alt="">
+            <a href="#">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Drinks</h4>
+            <!--Text-->
+            <p class="card-text">Get the finnest beer in Africa.</p>
+            <a href="Drinks.html" class="btn btn-black">See Our Drinks</a>
+          </div>
+
+        </div>
+        <!--/.Card-->
+
+      </div>
+      <!--Grid column-->
+
+    
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+    <!--Grid row-->
+
+  </div>
+  <!--Main container-->
+
+</main>
+
+<!-- Footer -->
+<footer class="page-footer font-small black pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Subscribe To Our Mailing List</h5>
+        <div class="md-form form-group">
+
+          <script type="text/javascript">
+            window.onload = function(){
+              document.getElementById('send').onclick = function(e){
+                alert("Your email"+" "+document.getElementById("email").value + " " + "has been added to our mailing list." );
+                return false;
+              }
+            }
+          </script>
+
+          <form method="post">
+            <i class="fa fa-envelope prefix"></i>
+          <input  type="email" name="email" id="email" class="form-control validate" style="color: #fff3cd;" placeholder="Type your email">
+          <a href="" class="btn btn-black" type="submit" name="send" id="send" value="send">Subscribe</a>
+          </form>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="">Robert,Peter,Brian,Jack</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+	background-color: black;
+}
+
+.jumbotron-fluid p{
+	color: white;
+	margin-top: -120px;
+	margin-bottom: 100px;
+	margin-left: 30px;
+	font-family: monotype corsiva;
+ 	font-size: 30px;
+
+
+}
+
+
+.jumbotron-fluid h1{
+	margin-top: -40px;
+text-align: center;
+color: white;
+font-size:100px;"
+}
+.jumbotron-fluid {
+	background-image: url(Dine.jpg);
+	background-size: cover;
+	height: 70;
+	background-color: white;
+ 	padding-top: 10em;
+ 	padding-bottom: 10em;
+}
+
+.follow{
+	color: white;
+	margin-top: 300px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	font-family: monotype corsiva;
+ 	font-size: 30px;
+}
+
+.getto{
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	font-family: monotype corsiva;
+ 	font-size: 30px;
+
+
+}
+
+.jumbotron{
+	background-image: url(high.jpg);
+	background-size: cover;
+	margin-top: -50px;
+	margin-bottom: 50px;
+	margin-left: 400px;
+	height: 70;
+	width: 700;
+	background-color: white;
+ 	padding-top: 10em;
+ 	padding-bottom: 10em;
+}
+
+.jumbotron p{
+	color: white;
+	margin-top: 480px;
+	margin-bottom: 100px;
+	margin-left: 30px;
+	font-family: monotype corsiva;
+ 	font-size: 30px;
+   
+}
+
+.jumbotron-special{
+	background-image: url(Sweet.jpg);
+	background-size: cover;
+	
+	background-color: white;
+	margin-top: 200;
+
+ 	padding-top: 40px;
+ 	padding-bottom: 330px;
+ 	margin-left: -60px;
+
+}
+
+.jumbotron-special h1{
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	margin-left: 30px;
+	font-family: monotype corsiva;
+ 	font-size: 30px;
+
+}
+
+.jumbotron-special p{
+	background: rgba(255, 255, 255, 0.6);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #000;
+	margin-top: 150px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: monotype corsiva;
+ 	font-size: 50px;
+ 	text-align: center;
+
+}
+
+.float-left{
+margin-left:-50px ;
+margin-top:30px ;
+height: 300px;
+	width: 300px;
+
+}
+
+.float-right{
+margin-left: 1250px;
+margin-top:-300px ;
+height: 300px;
+	width: 300px;
+
+
+}
+
+p.sub{
+	font-family: monotype corsiva;
+ 	font-size: 280px;
+ 	text-align: center;
+}
